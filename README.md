@@ -27,3 +27,7 @@ Folosim un 16x2 LCD pentru a afisa timpul & data. De asemenea, un servo motor es
 Suportul pentru mancare esteprntat 3D.
 
 ![pic1](https://user-images.githubusercontent.com/44534356/53525374-4d96d680-3aea-11e9-90cc-abc920a1efc8.jpg)
+
+
+![pic2](https://user-images.githubusercontent.com/44534356/53525433-6dc69580-3aea-11e9-8be9-fde1e89c1e0c.jpg)
+
