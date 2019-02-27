@@ -1,4 +1,4 @@
- #include <DS3231.h>
+#include <DS3231.h>
 #include <Servo.h>
 #include <LiquidCrystal.h>
 
@@ -123,10 +123,10 @@ void loop() {
    lcd.print("Date: ");
    lcd.print(rtc.getDateStr());
    
-   if (t1 == r[0] && t2 == r[1] && t3 == r[2] && t4 == r[3]&& t5 < 1 && t6 < 3 && feed == true) { 
+   if (t1 == r[0] && t2 == r[1] && t3 == r[2] && t4 == r[3] && t5 < 1 && t6 < 3 && feed == true) { 
     servo_test.write(25); //command to rotate the servo to the specified angle 
-     delay(700);   
+    delay(700);   
     servo_test.write(0); 
-    feed=false;
+    feed = false;
    } 
  }
